@@ -4,7 +4,7 @@ const router =express.Router();
 router.get('/fetch',fetch)
 router.post('/create',create)
 router.put('/update/:id',update)
-router.put('/delete/:id',deleteuser)
+router.delete('/delete/:id',deleteuser)
 export default router;
 
 
